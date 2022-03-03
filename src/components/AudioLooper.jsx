@@ -3,15 +3,15 @@
 import AudioContainer from "./AudioContainer";
 import ControlPanel from "./ControlPanel";
 import Header from "./Header";
+import "./AudioLooper.css";
 
 function AudioLooper() {
   return (
     <section className="container">
-      <Header />
       <div className="grand-container">
         <AudioContainer />
       </div>
-      <ControlPanel/>
+      <ControlPanel />
     </section>
   );
 }

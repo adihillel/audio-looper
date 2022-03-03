@@ -1,10 +1,13 @@
 //each audio card represents a sound and its mute btn
+import "./AudioCard.css";
 
 function AudioCard() {
   return (
-    <div>
-      <p>Adi</p>
-      <button>mute</button>
+    <div className="expense-item">
+      <div className="expense-item__description">
+        <p>Adi</p>
+      </div>
+      <button className="expense-item__price">mute</button>
     </div>
   );
 }
