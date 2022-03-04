@@ -16,7 +16,7 @@ In addition , every channel has a mute button , once clicked the sound is muted 
     2. npm start
 ```
 
-Demo:
+Demo: https://flamboyant-lumiere-3a8fed.netlify.app
 
 ## Screenshot
 
