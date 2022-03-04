@@ -1,6 +1,6 @@
-//this component containes all 8 audio card and binds them together
+//this component containes all 8 audio card (title and mute btn) and binds them together
 
-import AudioCard from "./AudioCard";
+import AudioCard from "../AudioCard/AudioCard";
 import "./AudioContainer.css";
 
 function AudioContainer(props) {

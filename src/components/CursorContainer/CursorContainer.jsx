@@ -1,9 +1,9 @@
-import Cursor from "./Cursor";
+import Cursor from "../Cursor/Cursor";
 import "./CursorContainer.css";
 
 function CursorContainer() {
   return (
-    <div className="new-expense">
+    <div className="curdor-container">
       <Cursor />
     </div>
   );

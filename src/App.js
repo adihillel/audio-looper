@@ -1,8 +1,8 @@
-import AudioLooper from "./components/AudioLooper";
+import AudioLooper from "./components/AudioLooper/AudioLooper";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" >
       <AudioLooper />
     </div>
   );
