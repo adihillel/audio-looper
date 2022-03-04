@@ -4,13 +4,13 @@ import AudioContainer from "./AudioContainer";
 import ControlPanel from "./ControlPanel";
 import Header from "./Header";
 import "./AudioLooper.css";
+import { sounds } from "../mySounds";
 
 function AudioLooper() {
   return (
     <section className="container">
-      <div className="grand-container">
-        <AudioContainer />
-      </div>
+      <Header />
+      <AudioContainer sounds={sounds} />
       <ControlPanel />
     </section>
   );

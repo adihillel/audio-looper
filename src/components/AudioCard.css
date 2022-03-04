@@ -2,8 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
-  margin: 1rem 0;
+  padding: 5px;
+  margin: 5px;
   background-color: #c8eef5;
   border-radius: 12px;
 }
@@ -28,7 +28,7 @@
 
 .expense-item__price {
   font: inherit;
-  padding: 1rem 2rem;
+  padding: 5px 15px;
   border: 1px solid #7408a7;
   background-color: #7408a7;
   border: 3px solid rgb(255, 255, 255);

@@ -3,10 +3,13 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import { LoopProvider } from "./LoopProvider";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <LoopProvider>
+      <App />
+    </LoopProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );

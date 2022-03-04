@@ -3,17 +3,12 @@
 import AudioCard from "./AudioCard";
 import "./AudioContainer.css";
 
-function AudioContainer() {
+function AudioContainer(props) {
   return (
     <div className="audio-container ">
-      <AudioCard />
-      <AudioCard />
-      <AudioCard />
-      <AudioCard />
-      <AudioCard />
-      <AudioCard />
-      <AudioCard />
-      <AudioCard />
+      {props.sounds.map((sound, i) => {
+        return <AudioCard audio={sound} index={i} key={i} />;
+      })}
     </div>
   );
 }
