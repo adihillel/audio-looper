@@ -1,6 +1,6 @@
 # Loop-machine
 
-this app is a frond-end project which implements a loop machine. The loop machine has 8 diffrent channels , 
+This app is a frond-end project which implements a loop machine. The loop machine has 8 diffrent channels , 
 each channel represent a diffrent audio track. 
 The loop machine has 3 buttons  - play , stop & loop , this buttons allow the user to manifulate the sound track . 
 PLAY - once clicked all of the diffrent sound will start at once (the ones who are not muted)
