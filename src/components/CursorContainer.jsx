@@ -3,7 +3,7 @@ import "./CursorContainer.css";
 
 function CursorContainer() {
   return (
-    <div>
+    <div className="new-expense">
       <Cursor />
     </div>
   );

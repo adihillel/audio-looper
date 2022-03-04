@@ -29,8 +29,8 @@
 .expense-item__price {
   font: inherit;
   padding: 5px 15px;
-  border: 1px solid #7408a7;
-  background-color: #7408a7;
+  border: 1px solid #b14fdf;
+  background-color: #b14fdf;
   border: 3px solid rgb(255, 255, 255);
   color: white;
   border-radius: 12px;
@@ -57,6 +57,6 @@
   .expense-item__price:hover,
   .expense-item__price:active {
     background-color: #510674;
-    border-color: #510674;
+    border-color: #b14fdf;
   }
 }

@@ -26,8 +26,20 @@ export const LoopProvider = ({ children }) => {
     else sounds[index].audio.volume = 0;
   };
 
+  const loopSound = (status) => {
+    if (status) {
+      arrayOfSounds.forEach((sound, index) => {
+        sounds[index].audio.loop = true;
+      });
+    } else {
+      arrayOfSounds.forEach((sound, index) => {
+        sounds[index].audio.loop = false;
+      });
+    }
+  };
+
   return (
-    <LoopContext.Provider value={{ playSound, stopSound, muteHandler }}>
+    <LoopContext.Provider value={{ playSound, stopSound, muteHandler,loopSound }}>
       {children}
     </LoopContext.Provider>
   );

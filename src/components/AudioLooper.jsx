@@ -3,6 +3,7 @@
 import AudioContainer from "./AudioContainer";
 import ControlPanel from "./ControlPanel";
 import Header from "./Header";
+import CursorContainer from "./CursorContainer";
 import "./AudioLooper.css";
 import { sounds } from "../mySounds";
 
@@ -12,6 +13,7 @@ function AudioLooper() {
       <Header />
       <AudioContainer sounds={sounds} />
       <ControlPanel />
+      <CursorContainer sounds={sounds} />
     </section>
   );
 }

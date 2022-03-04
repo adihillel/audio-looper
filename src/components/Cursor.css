@@ -1,0 +1,10 @@
+.cursor {
+    font: inherit;
+    padding: 1rem 2rem;
+    border: 1px solid #b14fdf;
+    background-color: #b14fdf;
+    border: 3px solid rgb(255, 255, 255);
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+  }
